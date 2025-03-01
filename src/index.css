@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-white;
+}
+
+.sidebar-item {
+    transition: opacity 0.3s ease-in-out;
+  }
+  .sidebar-item:hover {
+    opacity: 1 !important;
+  }
+  
