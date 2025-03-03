@@ -7,12 +7,12 @@ const Nox = () => {
       name="Nox"
       image="cyper.png"
       role="Sentinel"
-      description="Nox adalah agen bertahan dengan perisai yang hampir tidak bisa ditembus."
+      description="Nox memiliki kemampuan calm aim yang membuat tim nya terkagum-kagum."
       theme="text-blue-400"
       abilities={[
-        { name: "Iron Shield", type: "kanan" },
-        { name: "Unbreakable", type: "kanan" },
-        { name: "Last Stand", type: "kanan" },
+        { name: "Multitasking", type: "kanan" },
+        { name: "Gak Pernah Panik Liat Musuh", type: "kanan" },
+        { name: "Konsisten Aim", type: "kanan" },
       ]}
     />
   );

@@ -45,7 +45,7 @@ const Home = () => {
             {/* Sam */}
             <div className="w-full max-w-xs flex flex-col items-center bg-gray-900 rounded-lg shadow-xl p-6 transition-transform duration-300 hover:scale-105">
               <img src="/images/sam.jpeg" className="w-40 h-40 object-cover rounded-full border-4 border-gray-700 shadow-lg" alt="Sam" />
-              <h3 className="mt-3 text-center text-xl font-semibold text-white">Sam</h3>
+              <h3 className="mt-3 text-center text-xl font-semibold text-white">Nologicsam</h3>
               <p className="text-center text-gray-400 text-sm">Jett Main</p>
             </div>
 
@@ -84,7 +84,7 @@ const Home = () => {
             {/* Character 2 - Sam */}
             <div className="w-64 flex-shrink-0 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-6 snap-center transition-transform duration-300 hover:scale-105">
               <img src="/images/jett.png" className="w-48 h-60 object-cover border-4 border-gray-700 shadow-lg" alt="Sam" />
-              <h3 className="mt-3 text-center text-xl font-semibold text-white">Sam</h3>
+              <h3 className="mt-3 text-center text-xl font-semibold text-white">Nologicsam</h3>
               <p className="text-center text-gray-400 text-sm">One Tap Master</p>
             </div>
 

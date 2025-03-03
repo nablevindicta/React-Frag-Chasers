@@ -6,13 +6,14 @@ const Libro = () => {
     <CharacterProfile
       name="Libro"
       image="omen.png"
-      role="Controller"
-      description="Libro adalah agen yang bisa menghilang dalam kegelapan dan menyerang secara tiba-tiba."
+      role="Omen Main"
+      description="Libro merupakan player dengan permainan yang cukup agresif sampe musuh nya kesal, apalagi
+      kalau sudah main dengan teleport nya."
       theme="text-purple-400"
       abilities={[
-        { name: "Shadow Step", type: "kanan" },
-        { name: "Dark Veil", type: "kanan" },
-        { name: "Phantom Strike", type: "kanan" },
+        { name: "Teleport Ga Jelas", type: "kanan" },
+        { name: "Diajak Mabar Sulit", type: "kanan" },
+        { name: "Ngeluh Mulu", type: "kanan" },
       ]}
     />
   );

@@ -6,13 +6,13 @@ const Nologisam = () => {
     <CharacterProfile
       name="Nologisam"
       image="jett.png"
-      role="Duelist"
-      description="Nologisam memiliki kemampuan untuk ngekill dengan cara one tap."
+      role="Jett Main"
+      description="Nologisam sering kali menjadi penentu kemenangan dalam pertandingan karena mampu mengeliminasi musuh dengan efektif tanpa membuang banyak peluru."
       theme="text-green-400"
       abilities={[
-        { name: "X-Ray Vision", type: "kanan" },
-        { name: "Strategic Scan", type: "kanan" },
-        { name: "Predictive Analysis", type: "kanan" },
+        { name: "Montage Number One", type: "kanan" },
+        { name: "Sometimes Good Sometimes Bad", type: "kanan" },
+        { name: "Playing For Clips", type: "kanan" },
       ]}
     />
   );
