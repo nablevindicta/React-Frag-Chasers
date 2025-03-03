@@ -1,10 +1,10 @@
 import React from "react";
 import CharacterProfile from "./CharacterProfile";
 
-const Nologisam = () => {
+const Nologicsam = () => {
   return (
     <CharacterProfile
-      name="Nologisam"
+      name="Nologicsam"
       image="jett.png"
       role="Jett Main"
       description="Nologisam sering kali menjadi penentu kemenangan dalam pertandingan karena mampu mengeliminasi musuh dengan efektif tanpa membuang banyak peluru."
@@ -18,4 +18,4 @@ const Nologisam = () => {
   );
 };
 
-export default Nologisam;
+export default Nologicsam;

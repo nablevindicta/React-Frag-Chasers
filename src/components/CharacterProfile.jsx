@@ -1,12 +1,14 @@
 import React from "react";
 import { FaAngleRight } from "react-icons/fa";
 import './styles.css';
+import { useNavigate } from "react-router-dom";
 
 const icons = {
   kanan: <FaAngleRight className="text-blue-600" />
 };
 
 const CharacterProfile = ({ name, image, description, role, abilities, theme }) => {
+  const navigate = useNavigate();
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-6">
       {/* Background Image */}
@@ -48,7 +50,10 @@ const CharacterProfile = ({ name, image, description, role, abilities, theme }) 
           </div>
 
           {/* Detail Button */}
-          <button className="btn">Detail</button>
+          <button
+          className="btn"
+          onClick={() => navigate(`/characters/${name.toLowerCase()}`)}
+          >Detail</button>
 
         </div>
       </div>
