@@ -7,7 +7,7 @@ const Nox = () => {
       name="Nox"
       image="cyper.png"
       role="Sentinel"
-      description="Nox merupakan player dengan calm aim nya yang membuat tim nya terkagum-kagum."
+      description="Nox merupakan tipe pemain yang tidak panik saat musuh mendekat. Saat yang lain mulai spray tanpa arah, dia tetap tenang, menyesuaikan crosshair dengan sempurna, dan menunggu momen yang tepat."
       theme="text-blue-400"
       abilities={[
         { name: "Multitasking", type: "kanan" },
