@@ -24,7 +24,7 @@ const CharacterDetailPage = () => {
         <div className="absolute inset-0 bg-black/70"></div>
         <div className="relative z-10">
           <h2 className="text-2xl text-gray-400">Hi There!</h2>
-          <h1 className="text-6xl font-bold text-green-400">I am {name}</h1>
+          <h1 className="text-6xl font-bold text-blue-400">I am {name}</h1>
           <p className="text-lg text-gray-300 mt-2">{character.role}</p>
           <button className="mt-4 px-6 py-3 bg-green-500 text-white font-semibold rounded-full shadow-lg hover:bg-green-600">
             Contact Me
@@ -40,7 +40,7 @@ const CharacterDetailPage = () => {
           className="w-60 h-60 object-cover rounded-full border-4 border-gray-400 shadow-lg"
         />
         <div className="md:ml-12 text-center md:text-left mt-6 md:mt-0">
-          <h2 className="text-3xl font-semibold text-green-400">{name}</h2>
+          <h2 className="text-3xl font-semibold text-blue-400">{name}</h2>
           <p className="text-gray-300 mt-4 leading-relaxed">{character.description}</p>
           <ul className="mt-6 text-gray-400 space-y-2">
             <li><strong>Name:</strong> {name}</li>
@@ -60,7 +60,7 @@ const CharacterDetailPage = () => {
         <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-2">
           {character.skills.map((skill, index) => (
             <div key={index} className="bg-black/60 p-6 rounded-lg shadow-lg text-center">
-              <h3 className="text-xl font-semibold text-green-400">{skill}</h3>
+              <h3 className="text-xl font-semibold text-blue-400">{skill}</h3>
             </div>
           ))}
         </div>
@@ -71,15 +71,15 @@ const CharacterDetailPage = () => {
         <h2 className="text-4xl font-semibold text-white">Contact</h2>
         <div className="mt-8 flex flex-wrap gap-8 justify-center">
           <div className="flex items-center gap-3 bg-black/60 p-4 rounded-lg">
-            <FaEnvelope className="text-green-400 text-xl" />
+            <FaEnvelope className="text-blue-400 text-xl" />
             <p className="text-gray-300">{character.email}</p>
           </div>
           <div className="flex items-center gap-3 bg-black/60 p-4 rounded-lg">
-            <FaPhone className="text-green-400 text-xl" />
+            <FaPhone className="text-blue-400 text-xl" />
             <p className="text-gray-300">{character.phone}</p>
           </div>
           <div className="flex items-center gap-3 bg-black/60 p-4 rounded-lg">
-            <FaMapMarkerAlt className="text-green-400 text-xl" />
+            <FaMapMarkerAlt className="text-blue-400 text-xl" />
             <p className="text-gray-300">{character.location}</p>
           </div>
         </div>

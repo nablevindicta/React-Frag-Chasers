@@ -67,7 +67,6 @@ const Home = () => {
           </div>
         </section>
 
-
         {/* Characters Section */}
         <section className="p-10 bg-gray-800">
           <h2 className="text-4xl font-bold text-center text-white mb-6">PLAYERS</h2>
@@ -133,43 +132,29 @@ const Home = () => {
   </div>
 
   {/* Skillset */}
-<div className="container w-[400px] mx-auto">
-    <div className="skill-box">
-        <span className="title text-sm">HTML</span>
-        <div className="skill-bar">
-            <span className="skill-per html">
-                <span className="tooltip">88%</span>
-            </span>
+  <div class="mt-6 w-4/5 max-w-6xl text-center">
+        <h2 class="text-2xl font-bold mb-8">SKILLS</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h3 class="text-lg font-semibold mb-2">HTML & CSS</h3>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h3 class="text-lg font-semibold mb-2">JavaScript</h3>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h3 class="text-lg font-semibold mb-2">Python</h3>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h3 class="text-lg font-semibold mb-2">React</h3>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h3 class="text-lg font-semibold mb-2">PHP</h3>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h3 class="text-lg font-semibold mb-2">UI/UX Design</h3>
+            </div>
         </div>
     </div>
-
-    <div className="skill-box">
-        <span className="title text-sm">CSS</span>
-        <div className="skill-bar">
-            <span className="skill-per css">
-                <span className="tooltip">65%</span>
-            </span>
-        </div>
-    </div>
-
-    <div className="skill-box">
-        <span className="title text-sm">JavaScript</span>
-        <div className="skill-bar">
-            <span className="skill-per javascript">
-                <span className="tooltip">72%</span>
-            </span>
-        </div>
-    </div>
-
-    <div className="skill-box">
-        <span className="title text-sm">React</span>
-        <div className="skill-bar">
-            <span className="skill-per react">
-                <span className="tooltip">53%</span>
-            </span>
-        </div>
-    </div>
-</div>
 
   {/* Contact Button */}
   <a 
