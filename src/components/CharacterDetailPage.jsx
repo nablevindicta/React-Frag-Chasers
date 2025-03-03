@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import DetailPlayer from "./DetailPlayer";
-import { FaMapMarkerAlt, FaGlobe, FaEnvelope, FaTwitter } from "react-icons/fa";
+import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 
 const CharacterDetailPage = () => {
   const { name } = useParams();
@@ -16,89 +16,71 @@ const CharacterDetailPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white p-6">
-      {/* Header */}
-      <header className="text-center">
-        <h1 className={`text-4xl font-bold ${character.theme}`}>{name}</h1>
-        <p className="text-gray-400 text-lg">{character.role}</p>
+    <div className="min-h-screen bg-gray-900 text-white px-6">
+      {/* Hero Section */}
+      <header className="relative h-screen flex items-center justify-center text-center text-white bg-cover bg-center" style={{ backgroundImage: `url(/images/home.png)` }}>
+        <div className="absolute inset-0 bg-black/70"></div>
+        <div className="relative z-10">
+          <h2 className="text-2xl text-gray-400">Hi There!</h2>
+          <h1 className="text-6xl font-bold text-green-400">I am {name}</h1>
+          <p className="text-lg text-gray-300 mt-2">I make the complex simple.</p>
+          <button className="mt-4 px-6 py-3 bg-green-500 text-white font-semibold rounded-full shadow-lg hover:bg-green-600">
+            Contact Me
+          </button>
+        </div>
       </header>
 
       {/* Profile Section */}
-      <div className="relative flex flex-col md:flex-row items-center bg-black/50 p-8 rounded-2xl shadow-lg mt-8">
+      <div className="flex flex-col md:flex-row items-center bg-black/50 p-12 rounded-2xl shadow-lg mt-12">
         <img
           src={`/images/${character.image}`}
           alt={name}
-          className="w-48 h-48 object-cover rounded-full border-4 border-gray-400 shadow-lg"
+          className="w-60 h-60 object-cover rounded-lg border-4 border-gray-400 shadow-lg"
         />
-
-        <div className="md:ml-8 text-center md:text-left">
-          <h2 className={`text-3xl font-semibold ${character.theme}`}>About</h2>
-          <p className="text-gray-300 mt-2">{character.description}</p>
-
-          {/* Stats */}
-          <div className="flex justify-around md:justify-start gap-6 mt-6">
-            <div className="text-center">
-              <h3 className="text-xl font-bold">{character.experience}</h3>
-              <p className="text-gray-400">Years of Experience</p>
-            </div>
-            <div className="text-center">
-              <h3 className="text-xl font-bold">{character.projects}</h3>
-              <p className="text-gray-400">Projects Completed</p>
-            </div>
-            <div className="text-center">
-              <h3 className="text-xl font-bold">{character.clients}</h3>
-              <p className="text-gray-400">Allies</p>
-            </div>
-          </div>
+        <div className="md:ml-12 text-center md:text-left mt-6 md:mt-0">
+          <h2 className="text-3xl font-semibold text-green-400">Who am I?</h2>
+          <p className="text-gray-300 mt-4 leading-relaxed">{character.description}</p>
+          <ul className="mt-6 text-gray-400 space-y-2">
+            <li><strong>Name:</strong> {name}</li>
+            <li><strong>Age:</strong> {character.age}</li>
+            <li><strong>From:</strong> {character.location}</li>
+            <li><strong>Email:</strong> {character.email}</li>
+          </ul>
+          <button className="mt-6 px-6 py-3 bg-green-500 text-white font-semibold rounded-full shadow-lg hover:bg-green-600">
+            Download CV
+          </button>
         </div>
       </div>
 
-      {/* Skills */}
-      <section className="mt-12">
-        <h2 className={`text-3xl font-semibold ${character.theme}`}>Skills</h2>
-        <div className="mt-4 grid grid-cols-2 md:grid-cols-3 gap-4">
+      {/* Services Section */}
+      <section className="mt-16">
+        <h2 className="text-4xl font-semibold text-white text-center">My Services</h2>
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
           {character.skills.map((skill, index) => (
-            <div key={index} className="bg-black/60 p-4 rounded-lg shadow-lg">
-              <h3 className="text-lg font-semibold">{skill}</h3>
+            <div key={index} className="bg-black/60 p-6 rounded-lg shadow-lg text-center">
+              <h3 className="text-xl font-semibold text-green-400">{skill}</h3>
+              <p className="text-gray-400 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           ))}
         </div>
       </section>
 
-      {/* Abilities */}
-      <section className="mt-12">
-        <h2 className={`text-3xl font-semibold ${character.theme}`}>Abilities</h2>
-        <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-6">
-          {character.abilities.map((ability, index) => (
-            <div key={index} className="bg-black/60 p-4 rounded-lg shadow-lg">
-              <h3 className="text-lg font-semibold">{ability.name}</h3>
-              <p className="text-gray-400">{ability.type}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Contact */}
-      <section className="mt-12">
-        <h2 className={`text-3xl font-semibold ${character.theme}`}>Contact</h2>
-        <div className="mt-4 grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="flex items-center gap-2 bg-black/60 p-4 rounded-lg">
-            <FaMapMarkerAlt className="text-gray-400" />
-            <p>Unknown Territory</p>
+      {/* Contact Section */}
+      <section className="mt-16 text-center">
+        <h2 className="text-4xl font-semibold text-white">Contact</h2>
+        <div className="mt-8 flex flex-wrap gap-8 justify-center">
+          <div className="flex items-center gap-3 bg-black/60 p-4 rounded-lg">
+            <FaEnvelope className="text-green-400 text-xl" />
+            <p className="text-gray-300">{character.email}</p>
           </div>
-          <div className="flex items-center gap-2 bg-black/60 p-4 rounded-lg">
-            <FaGlobe className="text-gray-400" />
-            <p>www.characterwebsite.com</p>
+          <div className="flex items-center gap-3 bg-black/60 p-4 rounded-lg">
+            <FaPhone className="text-green-400 text-xl" />
+            <p className="text-gray-300">{character.phone}</p>
           </div>
-          <div className="flex items-center gap-2 bg-black/60 p-4 rounded-lg">
-            <FaEnvelope className="text-gray-400" />
-            <p>contact@character.com</p>
+          <div className="flex items-center gap-3 bg-black/60 p-4 rounded-lg">
+            <FaMapMarkerAlt className="text-green-400 text-xl" />
+            <p className="text-gray-300">{character.location}</p>
           </div>
-        </div>
-
-        <div className="mt-4 flex items-center gap-4">
-          <FaTwitter className="text-gray-400 text-2xl" />
-          <p>@character_handle</p>
         </div>
       </section>
     </div>
