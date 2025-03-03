@@ -7,7 +7,7 @@ const Nox = () => {
       name="Nox"
       image="cyper.png"
       role="Sentinel"
-      description="Nox memiliki kemampuan calm aim yang membuat tim nya terkagum-kagum."
+      description="Nox merupakan player dengan calm aim nya yang membuat tim nya terkagum-kagum."
       theme="text-blue-400"
       abilities={[
         { name: "Multitasking", type: "kanan" },

@@ -7,12 +7,12 @@ const Vindicta = () => {
       name="Vindicta"
       image="neon.png"
       role="Neon Main"
-      description="Vindicta merupakan player dengan movement yang ga jelas dan selalu nge bait tim nya."
+      description="Vindicta memiliki gaya bermain agresif dan unpredictable, sering kali mengandalkan kecepatan untuk menyerang lawan sebelum mereka bisa bereaksi."
       theme="text-blue-400"
       abilities={[
-        { name: "Sleding Mulu", type: "kanan" },
-        { name: "Stun Teman", type: "kanan" },
-        { name: "Wall Ga Jelas", type: "kanan" },
+        { name: "Playing For Clips", type: "kanan" },
+        { name: "Playing For Fun", type: "kanan" },
+        { name: "Softspoken", type: "kanan" },
       ]}
     />
   );

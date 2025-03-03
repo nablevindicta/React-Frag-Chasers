@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-gray-900 text-white p-4 flex justify-between items-center shadow-md">
-      <h1 className="text-2xl font-bold">Party Valorant</h1>
+      <h1 className="text-2xl font-bold">FRAG CHASERS</h1>
       <div className="space-x-4">
         <NavLink to="/" currentPath={location.pathname}>Home</NavLink>
         <NavLink to="/characters" currentPath={location.pathname}>Character List</NavLink>

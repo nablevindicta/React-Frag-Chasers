@@ -8,7 +8,7 @@ const Home = () => {
         <Navbar />
         {/* Hero Section */}
         <section className="relative text-center p-10 bg-cover bg-center" style={{ backgroundImage: "url('/images/home.png')" }}>
-          <h1 className="text-5xl font-bold drop-shadow-lg">WELCOME TO PARTY NONAME</h1>
+          <h1 className="text-5xl font-bold drop-shadow-lg">WELCOME TO FRAG CHASERS</h1>
           <button className="mt-4 bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700">PRE-ORDER</button>
         </section>
       
@@ -43,25 +43,26 @@ const Home = () => {
           <div className="flex flex-wrap justify-center gap-6">
 
             {/* Sam */}
-            <div className="w-full max-w-xs flex flex-col items-center bg-gray-900 rounded-lg shadow-xl p-6 transition-transform duration-300 hover:scale-105">
+            <div className="w-full max-w-xs flex flex-col items-center bg-gray-900 rounded-lg  p-6 transition-transform duration-300 hover:scale-105">
               <img src="/images/sam.jpeg" className="w-40 h-40 object-cover rounded-full border-4 border-gray-700 shadow-lg" alt="Sam" />
               <h3 className="mt-3 text-center text-xl font-semibold text-white">Nologicsam</h3>
               <p className="text-center text-gray-400 text-sm">Jett Main</p>
             </div>
 
+            {/* Libro */}
+            <div className="w-full max-w-xs flex flex-col items-center bg-gray-900 rounded-lg  p-6 transition-transform duration-300 hover:scale-105">
+              <img src="/images/libro.jpeg" className="w-40 h-40 object-cover rounded-full border-4 border-gray-700 shadow-lg" alt="Libro" />
+              <h3 className="mt-3 text-center text-xl font-semibold text-white">Libro</h3>
+              <p className="text-center text-gray-400 text-sm">Omen Main</p>
+            </div>
+
             {/* Vindicta */}
-            <div className="w-full max-w-xs flex flex-col items-center bg-gray-900 rounded-lg shadow-xl p-6 transition-transform duration-300 hover:scale-105">
+            <div className="w-full max-w-xs flex flex-col items-center bg-gray-900 rounded-lg  p-6 transition-transform duration-300 hover:scale-105">
               <img src="/images/vin.jpeg" className="w-40 h-40 object-cover rounded-full border-4 border-gray-700 shadow-lg" alt="Vindicta" />
               <h3 className="mt-3 text-center text-xl font-semibold text-white">Vindicta</h3>
               <p className="text-center text-gray-400 text-sm">Neon Main</p>
             </div>
 
-            {/* Libro */}
-            <div className="w-full max-w-xs flex flex-col items-center bg-gray-900 rounded-lg shadow-xl p-6 transition-transform duration-300 hover:scale-105">
-              <img src="/images/libro.jpeg" className="w-40 h-40 object-cover rounded-full border-4 border-gray-700 shadow-lg" alt="Libro" />
-              <h3 className="mt-3 text-center text-xl font-semibold text-white">Libro</h3>
-              <p className="text-center text-gray-400 text-sm">Omen Main</p>
-            </div>
 
           </div>
         </section>
