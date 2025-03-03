@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import DetailPlayer from "./DetailPlayer";
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
+import Navbar from "./Navbar";
 
 const CharacterDetailPage = () => {
   const { name } = useParams();
@@ -16,14 +17,15 @@ const CharacterDetailPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white px-6">
+    <div className="min-h-screen bg-gray-900 text-white ">
+      <Navbar />
       {/* Hero Section */}
-      <header className="relative h-screen flex items-center justify-center text-center text-white bg-cover bg-center" style={{ backgroundImage: `url(/images/home.png)` }}>
+      <header className="relative h-screen flex items-center justify-center text-center text-white bg-cover bg-center" style={{ backgroundImage: `url(/images/detail.png)` }}>
         <div className="absolute inset-0 bg-black/70"></div>
         <div className="relative z-10">
           <h2 className="text-2xl text-gray-400">Hi There!</h2>
           <h1 className="text-6xl font-bold text-green-400">I am {name}</h1>
-          <p className="text-lg text-gray-300 mt-2">I make the complex simple.</p>
+          <p className="text-lg text-gray-300 mt-2">{character.role}</p>
           <button className="mt-4 px-6 py-3 bg-green-500 text-white font-semibold rounded-full shadow-lg hover:bg-green-600">
             Contact Me
           </button>
@@ -31,14 +33,14 @@ const CharacterDetailPage = () => {
       </header>
 
       {/* Profile Section */}
-      <div className="flex flex-col md:flex-row items-center bg-black/50 p-12 rounded-2xl shadow-lg mt-12">
+      <div className="flex flex-col md:flex-row items-center bg-black/50 p-12 shadow-lg">
         <img
           src={`/images/${character.image}`}
           alt={name}
-          className="w-60 h-60 object-cover rounded-lg border-4 border-gray-400 shadow-lg"
+          className="w-60 h-60 object-cover rounded-full border-4 border-gray-400 shadow-lg"
         />
         <div className="md:ml-12 text-center md:text-left mt-6 md:mt-0">
-          <h2 className="text-3xl font-semibold text-green-400">Who am I?</h2>
+          <h2 className="text-3xl font-semibold text-green-400">{name}</h2>
           <p className="text-gray-300 mt-4 leading-relaxed">{character.description}</p>
           <ul className="mt-6 text-gray-400 space-y-2">
             <li><strong>Name:</strong> {name}</li>
@@ -52,14 +54,13 @@ const CharacterDetailPage = () => {
         </div>
       </div>
 
-      {/* Services Section */}
+      {/* Skills Section */}
       <section className="mt-16">
-        <h2 className="text-4xl font-semibold text-white text-center">My Services</h2>
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <h2 className="text-4xl font-semibold text-white text-center">My Skills</h2>
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-2">
           {character.skills.map((skill, index) => (
             <div key={index} className="bg-black/60 p-6 rounded-lg shadow-lg text-center">
               <h3 className="text-xl font-semibold text-green-400">{skill}</h3>
-              <p className="text-gray-400 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           ))}
         </div>

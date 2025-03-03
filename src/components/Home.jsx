@@ -7,9 +7,9 @@ const Home = () => {
     <div className="bg-gray-900 text-white min-h-screen">
         <Navbar />
         {/* Hero Section */}
-        <section className="relative text-center p-10 bg-cover bg-center" style={{ backgroundImage: "url('/images/home.png')" }}>
+        <section className="relative items-center justify-center text-center p-10 bg-cover bg-center" style={{ backgroundImage: "url('/images/home.png')" }}>
           <h1 className="text-5xl font-bold drop-shadow-lg">WELCOME TO FRAG CHASERS</h1>
-          <button className="mt-4 bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700">PRE-ORDER</button>
+          <button className="button mt-4 px-6 py-3">DISCORD</button>
         </section>
       
         {/* Latest Trailer & News */}
@@ -175,7 +175,7 @@ const Home = () => {
   <a 
     href="https://github.com/nablevindicta" 
     target="_blank" 
-    className="mt-6 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-all duration-300"
+    className="button mt-6 px-6 py-3"
   >
     View My Projects
   </a>

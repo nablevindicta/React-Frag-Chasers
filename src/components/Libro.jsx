@@ -8,7 +8,7 @@ const Libro = () => {
       image="omen.png"
       role="Omen Main"
       description="Libro merupakan player dengan permainan yang cukup agresif sampe musuh nya kesal, apalagi
-      kalau sudah main dengan teleport nya."
+      kalau sudah bermain dengan teleport nya."
       theme="text-purple-400"
       abilities={[
         { name: "Teleport Ga Jelas", type: "kanan" },
