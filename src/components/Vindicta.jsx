@@ -12,7 +12,7 @@ const Vindicta = () => {
       abilities={[
         { name: "Playing For Clips", type: "kanan" },
         { name: "Playing For Fun", type: "kanan" },
-        { name: "Softspoken", type: "kanan" },
+        { name: "Bucky Master", type: "kanan" },
       ]}
     />
   );

@@ -7,13 +7,12 @@ const Libro = () => {
       name="Libro"
       image="omen.png"
       role="Omen Main"
-      description="Libro merupakan player dengan permainan yang cukup agresif sampe musuh nya kesal, apalagi
-      kalau sudah bermain dengan teleport nya."
+      description="Libro merupakan Seorang player Omen yang agresif. Selalu memanfaatkan kemampuannya untuk menerobos pertahanan musuh dengan cepat dan menciptakan kekacauan di medan perang."
       theme="text-purple-400"
       abilities={[
-        { name: "Teleport Ga Jelas", type: "kanan" },
-        { name: "Diajak Mabar Sulit", type: "kanan" },
-        { name: "Ngeluh Mulu", type: "kanan" },
+        { name: "Agressive Teleport", type: "kanan" },
+        { name: "Sometimes Good Sometimes Bad", type: "kanan" },
+        { name: "Bucky Master", type: "kanan" },
       ]}
     />
   );

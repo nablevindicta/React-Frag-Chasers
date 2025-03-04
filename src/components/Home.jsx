@@ -7,7 +7,7 @@ const Home = () => {
     <div className="bg-gray-900 text-white min-h-screen">
         <Navbar />
         {/* Hero Section */}
-        <section className="relative items-center justify-center text-center p-10 bg-cover bg-center" style={{ backgroundImage: "url('/images/home.png')" }}>
+        <section className="relative items-center justify-center text-center p-10 bg-cover bg-center" style={{ backgroundImage: "url('/images/detail.png')" }}>
           <h1 className="text-5xl font-bold drop-shadow-lg">WELCOME TO FRAG CHASERS</h1>
           <button className="button mt-4 px-6 py-3">DISCORD</button>
         </section>

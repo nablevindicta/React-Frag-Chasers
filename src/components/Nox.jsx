@@ -11,8 +11,8 @@ const Nox = () => {
       theme="text-blue-400"
       abilities={[
         { name: "Multitasking", type: "kanan" },
-        { name: "Gak Pernah Panik Liat Musuh", type: "kanan" },
-        { name: "Konsisten Aim", type: "kanan" },
+        { name: "Never Panic Seeing the Enemy", type: "kanan" },
+        { name: "Consistent Aim", type: "kanan" },
       ]}
     />
   );
