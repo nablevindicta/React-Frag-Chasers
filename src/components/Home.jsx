@@ -34,7 +34,7 @@ const Home = () => {
           </h1>
 
           {/* Grid Layout */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 w-full ">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 w-full">
             {/* Card 1 */}
             <div className="flex flex-col md:flex-row items-center md:items-start bg-gray-900 p-6 rounded-lg transition-transform duration-300 hover:scale-105">
               <img
@@ -130,42 +130,43 @@ const Home = () => {
         </section>
 
         {/* Characters Section */}
-        <section className="p-10 bg-gray-800">
+        <section className="p-10 bg-gray-800 flex flex-col items-center">
           <h2 className="text-4xl font-bold text-center text-white mb-6">PLAYERS</h2>
 
-          {/* Container Scrollable */}
-          <div className="flex flex-wrap justify-center gap-6">
+          {/* Grid Container */}
+          <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-12 place-items-center">
 
+            
             {/* Character 1 - Vindicta */}
-            <div className="w-64 flex-shrink-0 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-6 snap-center transition-transform duration-300 hover:scale-105">
-              <img src="/images/neon.png" className=" h-60 object-cover border-4 border-gray-700 shadow-lg" alt="Vindicta" />
+            <div className="w-64 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-6 transition-transform duration-300 hover:scale-105">
+              <img src="/images/neon.png" className="h-60 object-cover border-4 border-gray-700 shadow-lg" alt="Vindicta" />
               <h3 className="mt-3 text-center text-xl font-semibold text-white">Vindicta</h3>
               <p className="text-center text-gray-400 text-sm">Movement Player</p>
             </div>
 
             {/* Character 2 - Sam */}
-            <div className="w-64 flex-shrink-0 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-6 snap-center transition-transform duration-300 hover:scale-105">
-              <img src="/images/jett.png" className="w-48 h-60 object-cover border-4 border-gray-700 shadow-lg" alt="Sam" />
+            <div className="w-64 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-6 transition-transform duration-300 hover:scale-105">
+              <img src="/images/jett.png" className="h-60 object-cover border-4 border-gray-700 shadow-lg" alt="Sam" />
               <h3 className="mt-3 text-center text-xl font-semibold text-white">Nologicsam</h3>
               <p className="text-center text-gray-400 text-sm">One Tap Master</p>
             </div>
 
             {/* Character 3 - Libro */}
-            <div className="w-64 flex-shrink-0 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-6 snap-center transition-transform duration-300 hover:scale-105">
-              <img src="/images/omen.png" className="w-48 h-60 object-cover border-4 border-gray-700 shadow-lg" alt="Libro" />
+            <div className="w-64 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-6 transition-transform duration-300 hover:scale-105">
+              <img src="/images/omen.png" className="h-60 object-cover border-4 border-gray-700 shadow-lg" alt="Libro" />
               <h3 className="mt-3 text-center text-xl font-semibold text-white">Libro</h3>
               <p className="text-center text-gray-400 text-sm">Agressive Player</p>
             </div>
 
             {/* Character 4 - Nox */}
-            <div className="w-64 flex-shrink-0 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-6 snap-center transition-transform duration-300 hover:scale-105">
-              <img src="/images/cyper.png" className="w-48 h-60 object-cover border-4 border-gray-700 shadow-lg" alt="Nox" />
+            <div className="w-64 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-6 transition-transform duration-300 hover:scale-105">
+              <img src="/images/cyper.png" className="h-60 object-cover border-4 border-gray-700 shadow-lg" alt="Nox" />
               <h3 className="mt-3 text-center text-xl font-semibold text-white">Nox</h3>
               <p className="text-center text-gray-400 text-sm">Calm Player</p>
             </div>
-
           </div>
         </section>
+
 
         {/* About Section */}
         <section className="p-10 bg-gray-900 text-white flex flex-col items-center text-center">
@@ -196,7 +197,7 @@ const Home = () => {
           {/* Skillset */}
           <div class="mt-6 w-4/5 max-w-6xl text-center">
                 <h2 class="text-2xl font-bold mb-8">SKILLS</h2>
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
                     <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
                         <h3 class="text-lg font-semibold mb-2">HTML & CSS</h3>
                     </div>
