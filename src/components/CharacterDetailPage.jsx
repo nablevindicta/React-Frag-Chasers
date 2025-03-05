@@ -67,7 +67,7 @@ const CharacterDetailPage = () => {
       {/* Skills */}
         <div className="md:w-1/2 mt-12 md:mt-0 flex flex-col items-center md:items-start">
           <h2 className="text-3xl font-semibold text-white text-center md:text-left">My Skills</h2>
-          <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 w-full">
+          <div className="mt-5 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 gap-4 w-full">
             {character.skills.map((skill, index) => (
               <div key={index} className="bg-black/60 p-6 rounded-lg shadow-lg text-center">
                 <h3 className="text-xl font-semibold text-blue-400">{skill}</h3>
