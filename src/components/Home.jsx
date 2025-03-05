@@ -19,83 +19,83 @@ const Home = () => {
         </section>
       
         <section className="p-10 bg-gray-800 flex flex-col items-center">
-      {/* Header Image */}
-      <div className="flex justify-center mb-6">
-        <img
-          src="/images/logo.png"
-          alt="Vindicta"
-          className="w-64 h-64 border-4 border-gray-700"
-        />
-      </div>
-
-      {/* Title */}
-      <h1 className="text-3xl font-bold text-white text-center mb-6">
-        FRAG CHASERS
-      </h1>
-
-      {/* Grid Layout */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 w-full ">
-        {/* Card 1 */}
-        <div className="flex flex-col md:flex-row items-center md:items-start bg-gray-900 p-6 rounded-lg">
-          <img
-            src="/images/vin.jpeg"
-            alt="Support"
-            className="w-48 md:w-1/2 rounded-lg mb-4 md:mb-0"
-          />
-          <div className="md:ml-4 text-white text-center md:text-left">
-            <h2 className="text-xl font-semibold">VINDICTA</h2>
-            <p className="text-sm mt-2">
-              Vindicta menerobos pertahanan lawan dengan pergerakan cepat dan chaos yang sulit ditebak.
-            </p>
+          {/* Header Image */}
+          <div className="flex justify-center mb-6">
+            <img
+              src="/images/logo.png"
+              alt="Vindicta"
+              className="w-64 h-64 border-4 border-gray-700"
+            />
           </div>
-        </div>
 
-        {/* Card 2 */}
-        <div className="flex flex-col md:flex-row items-center md:items-start bg-gray-900 p-6 rounded-lg">
-          <img
-            src="/images/libro.jpeg"
-            alt="Feedback"
-            className="w-48 md:w-1/2 rounded-lg mb-4 md:mb-0"
-          />
-          <div className="md:ml-4 text-white text-center md:text-left">
-            <h2 className="text-xl font-semibold">LIBRO</h2>
-            <p className="text-sm mt-2">
-              Libro bermain agresif sebagai Omen, mengendalikan map dengan smoke dan teleportasinya untuk mengecoh lawan.
-            </p>
-          </div>
-        </div>
+          {/* Title */}
+          <h1 className="text-3xl font-bold text-white text-center mb-6">
+            FRAG CHASERS
+          </h1>
 
-        {/* Card 3 */}
-        <div className="flex flex-col md:flex-row items-center md:items-start bg-gray-900 p-6 rounded-lg">
-          <img
-            src="/images/sam.jpeg"
-            alt="Feedback"
-            className="w-48 md:w-1/2 rounded-lg mb-4 md:mb-0"
-          />
-          <div className="md:ml-4 text-white text-center md:text-left">
-            <h2 className="text-xl font-semibold">NOLOGICSAM</h2>
-            <p className="text-sm mt-2">
-              Nologicsam adalah eksekutor dengan one tap mematikan, mengakhiri duel dengan satu peluru ke kepala.
-            </p>
-          </div>
-        </div>
+          {/* Grid Layout */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 w-full ">
+            {/* Card 1 */}
+            <div className="flex flex-col md:flex-row items-center md:items-start bg-gray-900 p-6 rounded-lg transition-transform duration-300 hover:scale-105">
+              <img
+                src="/images/vin.jpeg"
+                alt="Support"
+                className="w-48 md:w-1/2 rounded-lg mb-4 md:mb-0"
+              />
+              <div className="md:ml-4 text-white text-center md:text-left">
+                <h2 className="text-xl font-semibold">VINDICTA</h2>
+                <p className="text-sm mt-2">
+                  Vindicta menerobos pertahanan lawan dengan pergerakan cepat dan chaos yang sulit ditebak.
+                </p>
+              </div>
+            </div>
 
-        {/* Card 4 */}
-        <div className="flex flex-col md:flex-row items-center md:items-start bg-gray-900 p-6 rounded-lg">
-          <img
-            src="/images/nox.jpeg"
-            alt="Feedback"
-            className="w-48 h-48 rounded-lg mb-4 md:mb-0"
-          />
-          <div className="md:ml-4 text-white text-center md:text-left">
-            <h2 className="text-xl font-semibold">NOX</h2>
-            <p className="text-sm mt-2">
-              Nox, sang eksekutor tenang, menjaga ketertiban di tengah kekacauan dengan aim yang stabil dan keputusan yang dingin.
-            </p>
+            {/* Card 2 */}
+            <div className="flex flex-col md:flex-row items-center md:items-start bg-gray-900 p-6 rounded-lg transition-transform duration-300 hover:scale-105">
+              <img
+                src="/images/libro.jpeg"
+                alt="Feedback"
+                className="w-48 md:w-1/2 rounded-lg mb-4 md:mb-0"
+              />
+              <div className="md:ml-4 text-white text-center md:text-left">
+                <h2 className="text-xl font-semibold">LIBRO</h2>
+                <p className="text-sm mt-2">
+                  Libro bermain agresif sebagai Omen, mengendalikan map dengan smoke dan teleportasinya untuk mengecoh lawan.
+                </p>
+              </div>
+            </div>
+
+            {/* Card 3 */}
+            <div className="flex flex-col md:flex-row items-center md:items-start bg-gray-900 p-6 rounded-lg transition-transform duration-300 hover:scale-105">
+              <img
+                src="/images/sam.jpeg"
+                alt="Feedback"
+                className="w-48 md:w-1/2 rounded-lg mb-4 md:mb-0"
+              />
+              <div className="md:ml-4 text-white text-center md:text-left">
+                <h2 className="text-xl font-semibold">NOLOGICSAM</h2>
+                <p className="text-sm mt-2">
+                  Nologicsam adalah eksekutor dengan one tap mematikan, mengakhiri duel dengan satu peluru ke kepala.
+                </p>
+              </div>
+            </div>
+
+            {/* Card 4 */}
+            <div className="flex flex-col md:flex-row items-center md:items-start bg-gray-900 p-6 rounded-lg transition-transform duration-300 hover:scale-105">
+              <img
+                src="/images/nox.jpeg"
+                alt="Feedback"
+                className="w-48 h-48 rounded-lg mb-4 md:mb-0"
+              />
+              <div className="md:ml-4 text-white text-center md:text-left">
+                <h2 className="text-xl font-semibold">NOX</h2>
+                <p className="text-sm mt-2">
+                  Nox, sang eksekutor tenang, menjaga ketertiban di tengah kekacauan dengan aim yang stabil dan keputusan yang dingin.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
+        </section>
 
         {/* Content Creator */}
         <section className="p-6">
@@ -168,65 +168,65 @@ const Home = () => {
         </section>
 
         {/* About Section */}
-<section className="p-10 bg-gray-900 text-white flex flex-col items-center text-center">
-  <h2 className="text-4xl font-bold mb-6">ABOUT DEVELOPER</h2>
+        <section className="p-10 bg-gray-900 text-white flex flex-col items-center text-center">
+          <h2 className="text-4xl font-bold mb-6">ABOUT DEVELOPER</h2>
 
-  {/* Foto Profil */}
-  <div className="relative w-40 h-40">
-    <img 
-      src="/images/vin.jpeg" 
-      alt="Profile Picture" 
-      className="w-full h-full object-cover rounded-full border-4 border-gray-700 shadow-lg transition-transform duration-300 hover:scale-110"
-    />
-  </div>
+          {/* Foto Profil */}
+          <div className="relative w-40 h-40">
+            <img 
+              src="/images/vin.jpeg" 
+              alt="Profile Picture" 
+              className="w-full h-full object-cover rounded-full border-4 border-gray-700 shadow-lg transition-transform duration-300 hover:scale-110"
+            />
+          </div>
 
-  {/* Deskripsi */}
-  <div className="mt-6 max-w-2xl">
-    <p className="text-lg text-gray-300">
-      Halo! Saya <span className="font-semibold text-blue-400">Nable Vindicta</span>, seorang mahasiswa 
-      Teknik Informatika di Universitas Komputer Indonesia yang bercita-cita menjadi <span className="font-semibold text-blue-400">Game Developer</span>.  
-      Saya sangat antusias dalam pengembangan website, UI/UX, dan pembuatan game berbasis Unity dan Unreal Engine.
-    </p>
-    
-    <p className="mt-4 text-gray-400 text-sm">
-      "Kode adalah senjata, kreativitas adalah perisai. Mari ciptakan dunia yang lebih menarik dengan teknologi!"
-    </p>
-  </div>
+          {/* Deskripsi */}
+          <div className="mt-6 max-w-2xl">
+            <p className="text-lg text-gray-300">
+              Halo! Saya <span className="font-semibold text-blue-400">Nable Vindicta</span>, seorang mahasiswa 
+              Teknik Informatika di Universitas Komputer Indonesia yang bercita-cita menjadi <span className="font-semibold text-blue-400">Game Developer</span>.  
+              Saya sangat antusias dalam pengembangan website, UI/UX, dan pembuatan game berbasis Unity dan Unreal Engine.
+            </p>
 
-  {/* Skillset */}
-  <div class="mt-6 w-4/5 max-w-6xl text-center">
-        <h2 class="text-2xl font-bold mb-8">SKILLS</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                <h3 class="text-lg font-semibold mb-2">HTML & CSS</h3>
-            </div>
-            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                <h3 class="text-lg font-semibold mb-2">JavaScript</h3>
-            </div>
-            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                <h3 class="text-lg font-semibold mb-2">Python</h3>
-            </div>
-            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                <h3 class="text-lg font-semibold mb-2">React</h3>
-            </div>
-            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                <h3 class="text-lg font-semibold mb-2">PHP</h3>
-            </div>
-            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                <h3 class="text-lg font-semibold mb-2">UI/UX Design</h3>
-            </div>
-        </div>
-    </div>
+            <p className="mt-4 text-gray-400 text-sm">
+              "Kode adalah senjata, kreativitas adalah perisai. Mari ciptakan dunia yang lebih menarik dengan teknologi!"
+            </p>
+          </div>
 
-  {/* Contact Button */}
-  <a 
-    href="https://github.com/nablevindicta" 
-    target="_blank" 
-    className="button mt-6 px-6 py-3"
-  >
-    View My Projects
-  </a>
-</section>
+          {/* Skillset */}
+          <div class="mt-6 w-4/5 max-w-6xl text-center">
+                <h2 class="text-2xl font-bold mb-8">SKILLS</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                    <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                        <h3 class="text-lg font-semibold mb-2">HTML & CSS</h3>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                        <h3 class="text-lg font-semibold mb-2">JavaScript</h3>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                        <h3 class="text-lg font-semibold mb-2">Python</h3>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                        <h3 class="text-lg font-semibold mb-2">React</h3>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                        <h3 class="text-lg font-semibold mb-2">PHP</h3>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                        <h3 class="text-lg font-semibold mb-2">UI/UX Design</h3>
+                    </div>
+                </div>
+            </div>
+
+          {/* Contact Button */}
+          <a 
+            href="https://github.com/nablevindicta" 
+            target="_blank" 
+            className="button mt-6 px-6 py-3"
+          >
+            View My Projects
+          </a>
+        </section>
 
     </div>
   );

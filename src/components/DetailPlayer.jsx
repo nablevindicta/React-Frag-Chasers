@@ -43,7 +43,7 @@ const DetailPlayer = {
     socials: {
       discord: "https://discord.gg/SP6h2Pfx7S",
       tiktok: "https://www.tiktok.com/@theternalnox",
-      instagram: "https://www.instagram.com/libro",
+      instagram: "https://www.instagram.com/lintarandika",
     },
     agent: ["Cypher_agent.webp"],
   },
