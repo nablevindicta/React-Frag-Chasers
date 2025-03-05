@@ -7,33 +7,95 @@ const Home = () => {
     <div className="bg-gray-900 text-white min-h-screen">
         <Navbar />
         {/* Hero Section */}
-        <section className="relative items-center justify-center text-center p-10 bg-cover bg-center" style={{ backgroundImage: "url('/images/detail.png')" }}>
-          <h1 className="text-5xl font-bold drop-shadow-lg">WELCOME TO FRAG CHASERS</h1>
-          <button className="button mt-4 px-6 py-3">DISCORD</button>
+        <section className="relative items-center justify-center text-center p-10 bg-cover bg-center" style={{ backgroundImage: "url('/images/homee.jpg')" }}>
+          {/* Lapisan Overlay */}
+          <div className="absolute inset-0 bg-black opacity-50"></div>
+
+          {/* Konten Section */}
+          <div className="relative z-10">
+            <h1 className="text-5xl font-bold drop-shadow-lg">WELCOME TO FRAG CHASERS</h1>
+            <button className="button mt-4 px-6 py-3">DISCORD</button>
+          </div>
         </section>
       
-        {/* Latest Trailer & News */}
-        <section className="p-10 grid grid-cols-1 md:grid-cols-2 gap-6">
-          {/* Latest Trailer */}
-          <div className="bg-black p-6 rounded-lg shadow-lg">
-            <h2 className="text-xl font-semibold text-white">Favorite Video</h2>
-            <video
-              src="/videos/valo_neon.mp4"
-              controls
-              className="mt-4 w-full rounded-lg"
-            ></video>
+        <section className="p-10 bg-gray-800 flex flex-col items-center">
+      {/* Header Image */}
+      <div className="flex justify-center mb-6">
+        <img
+          src="/images/logo.png"
+          alt="Vindicta"
+          className="w-64 h-64 border-4 border-gray-700"
+        />
+      </div>
+
+      {/* Title */}
+      <h1 className="text-3xl font-bold text-white text-center mb-6">
+        FRAG CHASERS
+      </h1>
+
+      {/* Grid Layout */}
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 w-full ">
+        {/* Card 1 */}
+        <div className="flex flex-col md:flex-row items-center md:items-start bg-gray-900 p-6 rounded-lg">
+          <img
+            src="/images/vin.jpeg"
+            alt="Support"
+            className="w-48 md:w-1/2 rounded-lg mb-4 md:mb-0"
+          />
+          <div className="md:ml-4 text-white text-center md:text-left">
+            <h2 className="text-xl font-semibold">VINDICTA</h2>
+            <p className="text-sm mt-2">
+              Vindicta menerobos pertahanan lawan dengan pergerakan cepat dan chaos yang sulit ditebak.
+            </p>
           </div>
-        
-          {/* Latest News */}
-          <div className="bg-black p-6 rounded-lg shadow-lg">
-            <h2 className="text-xl font-semibold text-white">Developer</h2>
-            <img
-              src="/images/vindicta.png"
-              alt="Latest News"
-              className="mt-4 w-full rounded-lg"
-            />
+        </div>
+
+        {/* Card 2 */}
+        <div className="flex flex-col md:flex-row items-center md:items-start bg-gray-900 p-6 rounded-lg">
+          <img
+            src="/images/libro.jpeg"
+            alt="Feedback"
+            className="w-48 md:w-1/2 rounded-lg mb-4 md:mb-0"
+          />
+          <div className="md:ml-4 text-white text-center md:text-left">
+            <h2 className="text-xl font-semibold">LIBRO</h2>
+            <p className="text-sm mt-2">
+              Libro bermain agresif sebagai Omen, mengendalikan map dengan smoke dan teleportasinya untuk mengecoh lawan.
+            </p>
           </div>
-        </section>
+        </div>
+
+        {/* Card 3 */}
+        <div className="flex flex-col md:flex-row items-center md:items-start bg-gray-900 p-6 rounded-lg">
+          <img
+            src="/images/sam.jpeg"
+            alt="Feedback"
+            className="w-48 md:w-1/2 rounded-lg mb-4 md:mb-0"
+          />
+          <div className="md:ml-4 text-white text-center md:text-left">
+            <h2 className="text-xl font-semibold">NOLOGICSAM</h2>
+            <p className="text-sm mt-2">
+              Nologicsam adalah eksekutor dengan one tap mematikan, mengakhiri duel dengan satu peluru ke kepala.
+            </p>
+          </div>
+        </div>
+
+        {/* Card 4 */}
+        <div className="flex flex-col md:flex-row items-center md:items-start bg-gray-900 p-6 rounded-lg">
+          <img
+            src="/images/nox.jpeg"
+            alt="Feedback"
+            className="w-48 h-48 rounded-lg mb-4 md:mb-0"
+          />
+          <div className="md:ml-4 text-white text-center md:text-left">
+            <h2 className="text-xl font-semibold">NOX</h2>
+            <p className="text-sm mt-2">
+              Nox, sang eksekutor tenang, menjaga ketertiban di tengah kekacauan dengan aim yang stabil dan keputusan yang dingin.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
         {/* Content Creator */}
         <section className="p-6">

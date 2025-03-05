@@ -25,7 +25,7 @@ export default function Sidebar({ setSelectedCharacter }) {
     <>
       {/* Tombol Toggle Sidebar (Mobile) */}
       <button
-        className="fixed top-4 left-4 z-50 bg-gray-800 text-white p-2 rounded-full shadow-lg md:hidden"
+        className="fixed top-2 left-4 z-50 bg-gray-800 text-white p-2 rounded-full shadow-lg md:hidden"
         onClick={() => setIsOpen(!isOpen)}
       >
         {isOpen ? <FiX size={24} /> : <FiMenu size={24} />}
