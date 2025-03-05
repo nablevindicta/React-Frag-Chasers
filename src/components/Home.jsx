@@ -24,7 +24,7 @@ const Home = () => {
             <img
               src="/images/logo.png"
               alt="Vindicta"
-              className="w-64 h-64 border-4 border-gray-700"
+              className="w-64 h-64 border-4 rounded-2xl border-gray-700"
             />
           </div>
 
@@ -40,7 +40,7 @@ const Home = () => {
               <img
                 src="/images/vin.jpeg"
                 alt="Support"
-                className="w-48 md:w-1/2 rounded-lg mb-4 md:mb-0"
+                className="w-48 md:w-1/2 rounded-lg border-4 border-gray-700 mb-4 md:mb-0"
               />
               <div className="md:ml-4 text-white text-center md:text-left">
                 <h2 className="text-xl font-semibold">VINDICTA</h2>
@@ -55,7 +55,7 @@ const Home = () => {
               <img
                 src="/images/libro.jpeg"
                 alt="Feedback"
-                className="w-48 md:w-1/2 rounded-lg mb-4 md:mb-0"
+                className="w-48 md:w-1/2 rounded-lg border-4 border-gray-700 mb-4 md:mb-0"
               />
               <div className="md:ml-4 text-white text-center md:text-left">
                 <h2 className="text-xl font-semibold">LIBRO</h2>
@@ -70,7 +70,7 @@ const Home = () => {
               <img
                 src="/images/sam.jpeg"
                 alt="Feedback"
-                className="w-48 md:w-1/2 rounded-lg mb-4 md:mb-0"
+                className="w-48 md:w-1/2 rounded-lg border-4 border-gray-700 mb-4 md:mb-0"
               />
               <div className="md:ml-4 text-white text-center md:text-left">
                 <h2 className="text-xl font-semibold">NOLOGICSAM</h2>
@@ -85,7 +85,7 @@ const Home = () => {
               <img
                 src="/images/nox.jpeg"
                 alt="Feedback"
-                className="w-48 h-48 rounded-lg mb-4 md:mb-0"
+                className="w-48 md:w-1/2 rounded-lg border-4 border-gray-700 mb-4 md:mb-0"
               />
               <div className="md:ml-4 text-white text-center md:text-left">
                 <h2 className="text-xl font-semibold">NOX</h2>
