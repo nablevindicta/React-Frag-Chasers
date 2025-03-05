@@ -41,6 +41,7 @@ const CharacterDetailPage = () => {
           <div className="md:ml-6 text-center md:text-left mt-6 md:mt-0">
             <h2 className="text-3xl font-semibold text-blue-400">{name}</h2>
             <p className="text-gray-300 mt-4 leading-relaxed">{character.description}</p>
+            <h2 className="mt-6 text-2xl font-semibold text-blue-400">My Social Media</h2>
 
             {/* Social Media Buttons */}
             <div className="flex justify-center md:justify-start mt-4 space-x-4">
