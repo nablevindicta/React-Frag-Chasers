@@ -35,68 +35,66 @@ const Home = () => {
 
           {/* Grid Layout */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 w-full">
-  {/* Card 1 */}
-  <div className="flex flex-col items-center bg-gray-900 p-4 sm:p-6 rounded-lg transition-transform duration-300 hover:scale-105">
-    <img
-      src="/images/vin.jpeg"
-      alt="Support"
-      className="w-32 sm:w-48 rounded-lg border-4 border-gray-700"
-    />
-    <div className="mt-4 text-white text-center">
-      <h2 className="text-lg sm:text-xl font-semibold">VINDICTA</h2>
-      <p className="text-xs sm:text-sm mt-2">
-        Vindicta menerobos pertahanan lawan dengan pergerakan cepat dan chaos yang sulit ditebak.
-      </p>
-    </div>
-  </div>
+          {/* Card 1 */}
+          <div className="flex flex-col items-center bg-gray-900 p-4 sm:p-6 rounded-lg transition-transform duration-300 hover:scale-105">
+            <img
+              src="/images/vin.jpeg"
+              alt="Support"
+              className="w-32 sm:w-48 rounded-lg border-4 border-gray-700"
+            />
+            <div className="mt-4 text-white text-center">
+              <h2 className="text-lg sm:text-xl font-semibold">VINDICTA</h2>
+              <p className="text-xs sm:text-sm mt-2">
+                Vindicta menerobos pertahanan lawan dengan pergerakan cepat dan chaos yang sulit ditebak.
+              </p>
+            </div>
+          </div>
 
-  {/* Card 2 */}
-  <div className="flex flex-col items-center bg-gray-900 p-4 sm:p-6 rounded-lg transition-transform duration-300 hover:scale-105">
-    <img
-      src="/images/libro.jpeg"
-      alt="Feedback"
-      className="w-32 sm:w-48 rounded-lg border-4 border-gray-700"
-    />
-    <div className="mt-4 text-white text-center">
-      <h2 className="text-lg sm:text-xl font-semibold">LIBRO</h2>
-      <p className="text-xs sm:text-sm mt-2">
-        Libro bermain agresif sebagai Omen, mengendalikan map dengan smoke dan teleportasinya untuk mengecoh lawan.
-      </p>
-    </div>
-  </div>
+          {/* Card 2 */}
+          <div className="flex flex-col items-center bg-gray-900 p-4 sm:p-6 rounded-lg transition-transform duration-300 hover:scale-105">
+            <img
+              src="/images/libro.jpeg"
+              alt="Feedback"
+              className="w-32 sm:w-48 rounded-lg border-4 border-gray-700"
+            />
+            <div className="mt-4 text-white text-center">
+              <h2 className="text-lg sm:text-xl font-semibold">LIBRO</h2>
+              <p className="text-xs sm:text-sm mt-2">
+                Libro bermain agresif sebagai Omen, mengendalikan map dengan smoke dan teleportasinya untuk mengecoh lawan.
+              </p>
+            </div>
+          </div>
 
-  {/* Card 3 */}
-  <div className="flex flex-col items-center bg-gray-900 p-4 sm:p-6 rounded-lg transition-transform duration-300 hover:scale-105">
-    <img
-      src="/images/sam.jpeg"
-      alt="Feedback"
-      className="w-32 sm:w-48 rounded-lg border-4 border-gray-700"
-    />
-    <div className="mt-4 text-white text-center">
-      <h2 className="text-lg sm:text-xl font-semibold">NOLOGICSAM</h2>
-      <p className="text-xs sm:text-sm mt-2">
-        Nologicsam adalah eksekutor dengan one tap mematikan, mengakhiri duel dengan satu peluru ke kepala.
-      </p>
-    </div>
-  </div>
+          {/* Card 3 */}
+          <div className="flex flex-col items-center bg-gray-900 p-4 sm:p-6 rounded-lg transition-transform duration-300 hover:scale-105">
+            <img
+              src="/images/sam.jpeg"
+              alt="Feedback"
+              className="w-32 sm:w-48 rounded-lg border-4 border-gray-700"
+            />
+            <div className="mt-4 text-white text-center">
+              <h2 className="text-lg sm:text-xl font-semibold">NOLOGICSAM</h2>
+              <p className="text-xs sm:text-sm mt-2">
+                Nologicsam adalah eksekutor dengan one tap mematikan, mengakhiri duel dengan satu peluru ke kepala.
+              </p>
+            </div>
+          </div>
 
-  {/* Card 4 */}
-  <div className="flex flex-col items-center bg-gray-900 p-4 sm:p-6 rounded-lg transition-transform duration-300 hover:scale-105">
-    <img
-      src="/images/nox.jpeg"
-      alt="Feedback"
-      className="w-32 sm:w-48 rounded-lg border-4 border-gray-700"
-    />
-    <div className="mt-4 text-white text-center">
-      <h2 className="text-lg sm:text-xl font-semibold">NOX</h2>
-      <p className="text-xs sm:text-sm mt-2">
-        Nox, sang eksekutor tenang, menjaga ketertiban di tengah kekacauan dengan aim yang stabil dan keputusan yang dingin.
-      </p>
-    </div>
-  </div>
-</div>
-
-
+          {/* Card 4 */}
+          <div className="flex flex-col items-center bg-gray-900 p-4 sm:p-6 rounded-lg transition-transform duration-300 hover:scale-105">
+            <img
+              src="/images/nox.jpeg"
+              alt="Feedback"
+              className="w-32 sm:w-48 rounded-lg border-4 border-gray-700"
+            />
+            <div className="mt-4 text-white text-center">
+              <h2 className="text-lg sm:text-xl font-semibold">NOX</h2>
+              <p className="text-xs sm:text-sm mt-2">
+                Nox, sang eksekutor tenang, menjaga ketertiban di tengah kekacauan dengan aim yang stabil dan keputusan yang dingin.
+              </p>
+            </div>
+          </div>
+          </div>
         </section>
 
         {/* Content Creator */}
