@@ -60,7 +60,7 @@ const Home = () => {
             <div className="mt-4 text-white text-center">
               <h2 className="text-lg sm:text-xl font-semibold">LIBRO</h2>
               <p className="text-xs sm:text-sm mt-2">
-                Libro bermain agresif sebagai Omen, mengendalikan map dengan smoke dan teleportasinya untuk mengecoh lawan.
+                Libro bermain omen dengan gameplay yang sangat agresif.
               </p>
             </div>
           </div>
@@ -75,7 +75,7 @@ const Home = () => {
             <div className="mt-4 text-white text-center">
               <h2 className="text-lg sm:text-xl font-semibold">NOLOGICSAM</h2>
               <p className="text-xs sm:text-sm mt-2">
-                Nologicsam adalah eksekutor dengan one tap mematikan, mengakhiri duel dengan satu peluru ke kepala.
+                Nologicsam adalah eksekutor dengan one tap mematikan.
               </p>
             </div>
           </div>
@@ -90,7 +90,7 @@ const Home = () => {
             <div className="mt-4 text-white text-center">
               <h2 className="text-lg sm:text-xl font-semibold">NOX</h2>
               <p className="text-xs sm:text-sm mt-2">
-                Nox, sang eksekutor tenang, menjaga ketertiban di tengah kekacauan dengan aim yang stabil dan keputusan yang dingin.
+                Nox sang eksekutor tenang dengan aim yang stabil dan keputusan yang dingin.
               </p>
             </div>
           </div>
@@ -129,43 +129,58 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Characters Section */}
-        <section className="p-10 bg-gray-800 flex flex-col items-center">
-          <h2 className="text-4xl font-bold text-center text-white mb-6">PLAYERS</h2>
+        <section className="p-6 sm:p-10 bg-gray-800 flex flex-col items-center">
+      <h2 className="text-3xl sm:text-4xl font-bold text-center text-white mb-6">
+        PLAYERS
+      </h2>
 
-          {/* Grid Container */}
-          <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-12 place-items-center">
+      {/* Grid Container */}
+      <div className="mt-8 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-12 place-items-center w-full max-w-5xl">
+        {/* Character 1 - Vindicta */}
+        <div className="w-40 sm:w-48 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-4 sm:p-6 transition-transform duration-300 hover:scale-105">
+          <img
+            src="/images/neon.png"
+            className="h-36 sm:h-40 object-cover border-4 border-gray-700 shadow-lg"
+            alt="Vindicta"
+          />
+          <h3 className="mt-3 text-center text-lg sm:text-xl font-semibold text-white">Vindicta</h3>
+          <p className="text-center text-gray-400 text-xs sm:text-sm">Movement Player</p>
+        </div>
 
-            
-            {/* Character 1 - Vindicta */}
-            <div className="sm:w-48 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-6 transition-transform duration-300 hover:scale-105">
-              <img src="/images/neon.png" className="h-40 object-cover border-4 border-gray-700 shadow-lg" alt="Vindicta" />
-              <h3 className="mt-3 text-center text-xl font-semibold text-white">Vindicta</h3>
-              <p className="text-center text-gray-400 text-sm">Movement Player</p>
-            </div>
+        {/* Character 2 - Sam */}
+        <div className="w-40 sm:w-48 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-4 sm:p-6 transition-transform duration-300 hover:scale-105">
+          <img
+            src="/images/jett.png"
+            className="h-36 sm:h-40 object-cover border-4 border-gray-700 shadow-lg"
+            alt="Sam"
+          />
+          <h3 className="mt-3 text-center text-lg sm:text-xl font-semibold text-white">Nologicsam</h3>
+          <p className="text-center text-gray-400 text-xs sm:text-sm">One Tap Master</p>
+        </div>
 
-            {/* Character 2 - Sam */}
-            <div className="sm:w-48 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-6 transition-transform duration-300 hover:scale-105">
-              <img src="/images/jett.png" className="h-40 object-cover border-4 border-gray-700 shadow-lg" alt="Sam" />
-              <h3 className="mt-3 text-center text-xl font-semibold text-white">Nologicsam</h3>
-              <p className="text-center text-gray-400 text-sm">One Tap Master</p>
-            </div>
+        {/* Character 3 - Libro */}
+        <div className="w-40 sm:w-48 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-4 sm:p-6 transition-transform duration-300 hover:scale-105">
+          <img
+            src="/images/omen.png"
+            className="h-36 sm:h-40 object-cover border-4 border-gray-700 shadow-lg"
+            alt="Libro"
+          />
+          <h3 className="mt-3 text-center text-lg sm:text-xl font-semibold text-white">Libro</h3>
+          <p className="text-center text-gray-400 text-xs sm:text-sm">Agressive Player</p>
+        </div>
 
-            {/* Character 3 - Libro */}
-            <div className="sm:w-48 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-6 transition-transform duration-300 hover:scale-105">
-              <img src="/images/omen.png" className="h-40 object-cover border-4 border-gray-700 shadow-lg" alt="Libro" />
-              <h3 className="mt-3 text-center text-xl font-semibold text-white">Libro</h3>
-              <p className="text-center text-gray-400 text-sm">Agressive Player</p>
-            </div>
-
-            {/* Character 4 - Nox */}
-            <div className="sm:w-48 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-6 transition-transform duration-300 hover:scale-105">
-              <img src="/images/cyper.png" className="h-40 object-cover border-4 border-gray-700 shadow-lg" alt="Nox" />
-              <h3 className="mt-3 text-center text-xl font-semibold text-white">Nox</h3>
-              <p className="text-center text-gray-400 text-sm">Calm Player</p>
-            </div>
-          </div>
-        </section>
+        {/* Character 4 - Nox */}
+        <div className="w-40 sm:w-48 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-4 sm:p-6 transition-transform duration-300 hover:scale-105">
+          <img
+            src="/images/cyper.png"
+            className="h-36 sm:h-40 object-cover border-4 border-gray-700 shadow-lg"
+            alt="Nox"
+          />
+          <h3 className="mt-3 text-center text-lg sm:text-xl font-semibold text-white">Nox</h3>
+          <p className="text-center text-gray-400 text-xs sm:text-sm">Calm Player</p>
+        </div>
+      </div>
+    </section>
 
 
         {/* About Section */}
