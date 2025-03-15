@@ -36,7 +36,7 @@ const Home = () => {
           {/* Grid Layout */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 w-full">
           {/* Card 1 */}
-          <div className="flex flex-col items-center bg-gray-900 p-4 sm:p-6 rounded-lg transition-transform duration-300 hover:scale-105">
+          <div className="flex flex-col items-center bg-gray-900 p-4 sm:p-6 rounded-lg">
             <img
               src="/images/vin.jpeg"
               alt="Support"
@@ -51,7 +51,7 @@ const Home = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="flex flex-col items-center bg-gray-900 p-4 sm:p-6 rounded-lg transition-transform duration-300 hover:scale-105">
+          <div className="flex flex-col items-center bg-gray-900 p-4 sm:p-6 rounded-lg">
             <img
               src="/images/libro.jpeg"
               alt="Feedback"
@@ -66,7 +66,7 @@ const Home = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="flex flex-col items-center bg-gray-900 p-4 sm:p-6 rounded-lg transition-transform duration-300 hover:scale-105">
+          <div className="flex flex-col items-center bg-gray-900 p-4 sm:p-6 rounded-lg">
             <img
               src="/images/sam.jpeg"
               alt="Feedback"
@@ -81,7 +81,7 @@ const Home = () => {
           </div>
 
           {/* Card 4 */}
-          <div className="flex flex-col items-center bg-gray-900 p-4 sm:p-6 rounded-lg transition-transform duration-300 hover:scale-105">
+          <div className="flex flex-col items-center bg-gray-900 p-4 sm:p-6 rounded-lg">
             <img
               src="/images/nox.jpeg"
               alt="Feedback"
@@ -105,21 +105,21 @@ const Home = () => {
           <div className="flex flex-wrap justify-center gap-6">
 
             {/* Sam */}
-            <div className="w-full max-w-xs flex flex-col items-center bg-gray-900 rounded-lg  p-6 transition-transform duration-300 hover:scale-105">
+            <div className="w-full max-w-xs flex flex-col items-center bg-gray-900 rounded-lg  p-6">
               <img src="/images/sam.jpeg" className="w-40 h-40 object-cover rounded-full border-4 border-gray-700 shadow-lg" alt="Sam" />
               <h3 className="mt-3 text-center text-xl font-semibold text-white">Nologicsam</h3>
               <p className="text-center text-gray-400 text-sm">Jett Main</p>
             </div>
 
             {/* Libro */}
-            <div className="w-full max-w-xs flex flex-col items-center bg-gray-900 rounded-lg  p-6 transition-transform duration-300 hover:scale-105">
+            <div className="w-full max-w-xs flex flex-col items-center bg-gray-900 rounded-lg  p-6">
               <img src="/images/libro.jpeg" className="w-40 h-40 object-cover rounded-full border-4 border-gray-700 shadow-lg" alt="Libro" />
               <h3 className="mt-3 text-center text-xl font-semibold text-white">Libro</h3>
               <p className="text-center text-gray-400 text-sm">Omen Main</p>
             </div>
 
             {/* Vindicta */}
-            <div className="w-full max-w-xs flex flex-col items-center bg-gray-900 rounded-lg  p-6 transition-transform duration-300 hover:scale-105">
+            <div className="w-full max-w-xs flex flex-col items-center bg-gray-900 rounded-lg  p-6">
               <img src="/images/vin.jpeg" className="w-40 h-40 object-cover rounded-full border-4 border-gray-700 shadow-lg" alt="Vindicta" />
               <h3 className="mt-3 text-center text-xl font-semibold text-white">Vindicta</h3>
               <p className="text-center text-gray-400 text-sm">Neon Main</p>
@@ -137,7 +137,7 @@ const Home = () => {
       {/* Grid Container */}
       <div className="mt-8 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-12 place-items-center w-full max-w-5xl">
         {/* Character 1 - Vindicta */}
-        <div className="w-40 sm:w-48 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-4 sm:p-6 transition-transform duration-300 hover:scale-105">
+        <div className="w-40 sm:w-48 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-4 sm:p-6">
           <img
             src="/images/neon.png"
             className="h-36 sm:h-40 object-cover border-4 border-gray-700 shadow-lg"
@@ -148,7 +148,7 @@ const Home = () => {
         </div>
 
         {/* Character 2 - Sam */}
-        <div className="w-40 sm:w-48 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-4 sm:p-6 transition-transform duration-300 hover:scale-105">
+        <div className="w-40 sm:w-48 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-4 sm:p-6">
           <img
             src="/images/jett.png"
             className="h-36 sm:h-40 object-cover border-4 border-gray-700 shadow-lg"
@@ -159,7 +159,7 @@ const Home = () => {
         </div>
 
         {/* Character 3 - Libro */}
-        <div className="w-40 sm:w-48 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-4 sm:p-6 transition-transform duration-300 hover:scale-105">
+        <div className="w-40 sm:w-48 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-4 sm:p-6">
           <img
             src="/images/omen.png"
             className="h-36 sm:h-40 object-cover border-4 border-gray-700 shadow-lg"
@@ -170,7 +170,7 @@ const Home = () => {
         </div>
 
         {/* Character 4 - Nox */}
-        <div className="w-40 sm:w-48 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-4 sm:p-6 transition-transform duration-300 hover:scale-105">
+        <div className="w-40 sm:w-48 flex flex-col items-center bg-gray-900 rounded-lg shadow-lg p-4 sm:p-6">
           <img
             src="/images/cyper.png"
             className="h-36 sm:h-40 object-cover border-4 border-gray-700 shadow-lg"
@@ -192,7 +192,7 @@ const Home = () => {
             <img 
               src="/images/vin.jpeg" 
               alt="Profile Picture" 
-              className="w-full h-full object-cover rounded-full border-4 border-gray-700 shadow-lg transition-transform duration-300 hover:scale-110"
+              className="w-full h-full object-cover rounded-full border-4 border-gray-700 shadow-lg"
             />
           </div>
 
